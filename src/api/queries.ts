@@ -1,6 +1,7 @@
 import axios from "axios";
 import { ICard, ITypeAndDoctor } from "../type/type";
 
+// change baseURL to http://localhost:4000/
 const instance = axios.create({
   baseURL: 'https://apipolyclinics.onrender.com/',
   headers: {
