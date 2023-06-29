@@ -1,0 +1,89 @@
+.polyclinicWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 20vw;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.polyclinicsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 60px 0;
+}
+
+.polyclinicContainerTitle {
+  font-size: 2vw;
+  color:rgba(0, 0, 0, 0.575);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.breadcrumbsContainer {
+  font-size: 1.6vw;
+  display: flex;
+  justify-content:space-between;
+  color:rgba(0, 0, 0, 0.575);
+  width: 50%;
+}
+
+.breadcrumbsContainer > div {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .polyclinicContainerTitle {
+    font-size: 2em;
+  }
+  .polyclinicsWrapper {
+    font-size: 1.5em;
+  }
+
+  .breadcrumbsContainer {
+    font-size: 1.2em;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .breadcrumbsContainer {
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .polyclinicContainerTitle {
+    font-size: 1.5em;
+  }
+  .polyclinicsWrapper {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .polyclinicsContainer {
+    padding: 60px 20px 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .polyclinicsWrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 30vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .polyclinicsWrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 40vw;
+  }
+}

@@ -1,0 +1,52 @@
+.polyclinicsWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 20vw;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.polyclinicsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 60px 0;
+}
+
+.polyclinicsContainerTitle {
+  font-size: 2vw;
+  color:rgba(0, 0, 0, 0.575);
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .polyclinicsContainerTitle {
+    font-size: 2em;
+  }
+  .polyclinicsWrapper {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .polyclinicsWrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 30vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .polyclinicsWrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 40vw;
+  }
+  .polyclinicsContainer {
+    padding: 60px 20px 0;
+
+  }
+}

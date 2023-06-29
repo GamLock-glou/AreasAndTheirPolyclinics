@@ -1,0 +1,113 @@
+.doctorContainer {
+  border: 1px solid rgba(0, 0, 0, 0.575);
+  color: rgba(0, 0, 0, 0.575);
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.textField {
+  background: #ffffff;
+}
+
+.doctorName {
+  display: flex;
+  justify-content: center;
+  font-size: 1.3em;
+  padding-right: 50px;
+  align-items: center;
+  &:hover .changeDoctorName{
+    display: flex;
+  }
+}
+
+.doctorNameTextField {
+  width: 50%;
+}
+
+.changeDoctorName {
+  display: none;
+  cursor: pointer;
+}
+
+.symbolsDoctorName {
+  display: flex;
+}
+
+.symbolDoctorName {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.saveSymbolDoctorName {
+  transition: 0.5s;
+  &:hover {
+    transition: 0.5s;
+    background: rgb(64, 213, 64);
+  }
+}
+
+.cancellationSymbolDoctorName {
+  transition: 0.5s;
+  &:hover {
+    transition: 0.5s;
+    background: rgb(227, 64, 64);
+  }
+}
+
+.scheduleContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.dayWeekWrapper {
+  font-size: 1.2em;
+  display: flex;
+}
+
+.editWrapper {
+  background: #ffffff;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  color: rgba(0, 0, 0, 0.575);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .doctorContainer {
+    width: 80%
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .doctorContainer {
+    width: 100%
+  }
+}

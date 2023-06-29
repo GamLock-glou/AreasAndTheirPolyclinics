@@ -1,0 +1,57 @@
+.creatorCardWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 20vw;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.creatorCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 60px 0;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.creatorCardContainerTitle {
+  font-size: 2vw;
+  color:rgba(0, 0, 0, 0.575);
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .creatorCardContainerTitle {
+    font-size: 2em;
+  }
+  .formWrapper {
+    width: 100%;
+  }
+  .creatorCardWrapper {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .creatorCardWrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 30vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .creatorCardWrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 40vw;
+  }
+}

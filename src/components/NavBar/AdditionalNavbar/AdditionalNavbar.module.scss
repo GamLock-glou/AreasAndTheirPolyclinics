@@ -1,0 +1,24 @@
+.additionalNavbarWrapper {
+  position: absolute;
+  // border-bottom: 1px solid rgba(0, 0, 0, 0.575);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width: 100%;
+  background: #ffffff;
+  top: 100%;
+  z-index: 10;
+  animation: 0.3s showForm;
+}
+
+.none {
+  animation: 0.3s hideForm;
+}
+
+@keyframes showForm {
+  0%   {transform: scale(0)}
+  100% {transform: scale(1)}
+}
+
+@keyframes hideForm {
+  0%   {transform: scale(1)}
+  100% {transform: scale(0)}
+}

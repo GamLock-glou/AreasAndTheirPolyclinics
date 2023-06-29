@@ -1,0 +1,57 @@
+@import '../../../../styles/globalStyles.scss';
+
+@media screen and (max-width: 600px) {
+  .arrowDown {
+    transition: 0.3s;
+    padding-left: 5px;
+  }
+  .arrowUp {
+    transition: 0.3s;
+    padding-right: 5px;
+    transform: rotate(-180deg);
+  }
+  .container {
+    margin: 80px 5px 0 5px;
+    box-sizing: border-box;
+  }
+  .link {
+    color: $color_values;
+    text-decoration: $link_text_decoration;
+    display: flex;
+    width: 100%;
+  }
+  .globalValues {
+    display: flex;
+    font-size: 20px;
+    border-radius: 10px;
+    color: $color_values;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    &:hover {
+      background: #9f9f9f39;
+    }
+    &.active {
+      background: #9f9f9f39;
+    }
+  }
+}
+
+.ulValues {
+  list-style-type: none;
+  padding: 0;
+}
+
+.liValue {
+  display: flex;
+  color: $color_values;
+  text-decoration: $link_text_decoration;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 0 10px 0 10px;
+  padding: 10px;
+  &:hover {
+    background: #9f9f9f39;
+  }
+}

@@ -1,0 +1,862 @@
+{
+  "areas": [
+    {
+      "numberSection": 2,
+      "nameSection": "Второй участок"
+    },
+    {
+      "numberSection": 4,
+      "nameSection": "Четверный участок"
+    }
+  ],
+  "polyclinics": [
+    {
+      "numberArea": 4,
+      "numberPolyclinic": 5,
+      "namePolyclinic": "Витебская поликлиника",
+      "img": "polyclinic4"
+    },
+    {
+      "numberArea": 4,
+      "numberPolyclinic": 4,
+      "namePolyclinic": "Витебская поликлиника",
+      "img": "polyclinic4"
+    },
+    {
+      "numberArea": 2,
+      "numberPolyclinic": 2,
+      "namePolyclinic": "Витебская поликлиника",
+      "img": "polyclinic2"
+    },
+    {
+      "numberArea": 2,
+      "numberPolyclinic": 3,
+      "namePolyclinic": "Витебская поликлиника",
+      "img": "polyclinic2"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 0,
+      "name": "Врачобыкновенный Алексей Антонович",
+      "numberPolyclinic": 2,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "Витебская больница №2",
+          "receptionHours": "09:00 - 13:00, 14:00 - 17:00",
+          "cabinetNumber": "103"
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "Витебская больница №2",
+          "receptionHours": "10:00 - 13:00, 14:00 - 17:00",
+          "cabinetNumber": "103"
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "Витебская больница №2",
+          "receptionHours": "10:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "402"
+        },
+        {
+          "dayWeek": "Четверг",
+          "nameAndNumberPolyclinic": "Витебская больница №2",
+          "receptionHours": "9:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "402"
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "Витебская больница №2",
+          "receptionHours": "10:00 - 12:00, 16:00 - 17:00",
+          "cabinetNumber": "202"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Врачпростой Алексей Антонович",
+      "numberPolyclinic": 3,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "Витебская больница №3",
+          "receptionHours": "09:00 - 13:00, 14:00 - 17:00",
+          "cabinetNumber": "103"
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "Витебская больница №3",
+          "receptionHours": "10:00 - 13:00, 14:00 - 17:00",
+          "cabinetNumber": "103"
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "Витебская больница №3",
+          "receptionHours": "10:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "402"
+        },
+        {
+          "dayWeek": "Четверг",
+          "nameAndNumberPolyclinic": "Витебская больница №3",
+          "receptionHours": "9:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "402"
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "Витебская больница №3",
+          "receptionHours": "10:00 - 12:00, 16:00 - 17:00",
+          "cabinetNumber": "202"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Обычный Руслан Мухамедович",
+      "numberPolyclinic": 4,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "Витебская больница №4",
+          "receptionHours": "09:00 - 13:00, 14:00 - 17:00",
+          "cabinetNumber": "103"
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "Витебская больница №4",
+          "receptionHours": "10:00 - 13:00, 14:00 - 17:00",
+          "cabinetNumber": "103"
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "Витебская больница №4",
+          "receptionHours": "10:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "402"
+        },
+        {
+          "dayWeek": "Четверг",
+          "nameAndNumberPolyclinic": "Витебская больница №4",
+          "receptionHours": "9:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "402"
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "Витебская больница №4",
+          "receptionHours": "10:00 - 12:00, 16:00 - 17:00",
+          "cabinetNumber": "202"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Простая Яна Антоновна",
+      "numberPolyclinic": 5,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "Витебская больница №5",
+          "receptionHours": "09:00 - 13:00, 14:00 - 17:00",
+          "cabinetNumber": "103"
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "Витебская больница №5",
+          "receptionHours": "10:00 - 13:00, 14:00 - 17:00",
+          "cabinetNumber": "103"
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "Витебская больница №5",
+          "receptionHours": "10:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "402"
+        },
+        {
+          "dayWeek": "Четверг",
+          "nameAndNumberPolyclinic": "Витебская больница №5",
+          "receptionHours": "9:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "402"
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "Витебская больница №5",
+          "receptionHours": "10:00 - 12:00, 16:00 - 17:00",
+          "cabinetNumber": "202"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "www",
+      "numberPolyclinic": 2,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Четвер",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "цццц",
+      "numberPolyclinic": 5,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Четвер",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "wwwwwwwwwwwwww",
+      "numberPolyclinic": 5,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "www",
+          "receptionHours": "www",
+          "cabinetNumber": "wwww"
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Четвер",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Авдосьев Авдось Авдосьевич",
+      "numberPolyclinic": 4,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Четвер",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "wwwsss22",
+      "numberPolyclinic": 5,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Четвер",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "авваыацуц",
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "Витебская больница №3",
+          "receptionHours": "09:00 - 11:00, 14:00 - 17:02",
+          "cabinetNumber": "1032"
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Четвер",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        }
+      ],
+      "numberPolyclinic": 4
+    }
+  ],
+  "areaDoctors": [
+    {
+      "id": 0,
+      "name": "Изменный Врач",
+      "numberArea": 2,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "Витебская больница №3",
+          "receptionHours": "09:00 - 11:00, 14:00 - 17:00",
+          "cabinetNumber": "103"
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "Витебская больница №2",
+          "receptionHours": "10:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "103"
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "Витебская больница №3",
+          "receptionHours": "10:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "402"
+        },
+        {
+          "dayWeek": "Четверг",
+          "nameAndNumberPolyclinic": "Витебская больница №3",
+          "receptionHours": "9:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "402"
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "Витебская больница №2",
+          "receptionHours": "10:00 - 12:00, 16:00 - 17:00",
+          "cabinetNumber": "202"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Литлврач Антон Александрович",
+      "numberArea": 4,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "Витебская больница №4",
+          "receptionHours": "09:00 - 11:00, 14:00 - 17:00",
+          "cabinetNumber": "103"
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "Витебская больница №4",
+          "receptionHours": "10:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "103"
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "Витебская больница №5",
+          "receptionHours": "10:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "402"
+        },
+        {
+          "dayWeek": "Четверг",
+          "nameAndNumberPolyclinic": "Витебская больница №5",
+          "receptionHours": "9:00 - 12:00, 14:00 - 17:00",
+          "cabinetNumber": "402"
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "Витебская больница №4",
+          "receptionHours": "10:00 - 12:00, 16:00 - 17:00",
+          "cabinetNumber": "202"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ццццц",
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "Витебская больница №3",
+          "receptionHours": "09:00 - 11:00, 14:00 - 17:00w",
+          "cabinetNumber": "10312"
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "fsd",
+          "receptionHours": "fdsfsf",
+          "cabinetNumber": "dfsd"
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "fdsfsf",
+          "receptionHours": "dsfsf",
+          "cabinetNumber": "fdsfsfs"
+        },
+        {
+          "dayWeek": "Четвер",
+          "nameAndNumberPolyclinic": "fdsffsfsd",
+          "receptionHours": "dfsfs",
+          "cabinetNumber": "dsfs"
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "dsfsf",
+          "receptionHours": "dsfsfsd",
+          "cabinetNumber": "dsf"
+        }
+      ],
+      "numberArea": 4
+    },
+    {
+      "id": 3,
+      "name": "www",
+      "numberArea": 2,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Четвер",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "www",
+      "numberArea": 2,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Четвер",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "sfaf",
+      "numberArea": 2,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Четвер",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "авваыа",
+      "numberArea": 2,
+      "schedule": [
+        {
+          "dayWeek": "Понедельник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Вторник",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Среда",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Четвер",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        },
+        {
+          "dayWeek": "Пятница",
+          "nameAndNumberPolyclinic": "",
+          "receptionHours": "",
+          "cabinetNumber": ""
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": 0,
+      "numberCard": 103,
+      "name": "Антонов Антон Антонович",
+      "address": "улица Пушкина дом Калатушкина 1",
+      "gender": "мужской",
+      "age": "01.01.2001",
+      "insurancePolicyNumber": "192OAO3",
+      "createDateCards": "18.09.2015",
+      "intelligence": [
+        {
+          "dateOfVisit": "18.12.2022",
+          "complaint": "Болит попа",
+          "preliminaryDiagnosis": "Инсульт попы",
+          "appointments": "Не садится на попу",
+          "discharged": "31.12.2022",
+          "doctor": "Врачобыкновенный Алексей Антонович"
+        },
+        {
+          "dateOfVisit": "wwww",
+          "complaint": "wwww",
+          "preliminaryDiagnosis": "wwww",
+          "appointments": "wwww",
+          "discharged": "wwww",
+          "doctor": "Врачобыкновенный Алексей Антонович"
+        },
+        {
+          "dateOfVisit": "wwww",
+          "complaint": "www",
+          "preliminaryDiagnosis": "wwwww",
+          "appointments": "wwww",
+          "discharged": "wwww",
+          "doctor": "Простая Яна Антоновна"
+        },
+        {
+          "dateOfVisit": "321312",
+          "complaint": "wdadaw",
+          "preliminaryDiagnosis": "dwadwad",
+          "appointments": "wdadad",
+          "discharged": "wadadw",
+          "doctor": "Врачобыкновенный Алексей Антонович"
+        },
+        {
+          "dateOfVisit": "321312222",
+          "complaint": "wdadaw2222",
+          "preliminaryDiagnosis": "dwadwad222",
+          "appointments": "wdadad222",
+          "discharged": "wadadw222",
+          "doctor": "Врачобыкновенный Алексей Антонович"
+        },
+        {
+          "dateOfVisit": "05.01.2023",
+          "complaint": "ssssss",
+          "preliminaryDiagnosis": "sss",
+          "appointments": "ssss",
+          "discharged": "ssss",
+          "doctor": "Обычный Руслан Мухамедович"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "numberCard": 104,
+      "name": "Лев Артем Антонович",
+      "address": "улица Пушкина дом Калатушкина 2",
+      "gender": "мужской",
+      "age": "01.04.2001",
+      "insurancePolicyNumber": "192OAO43",
+      "createDateCards": "18.09.2014",
+      "intelligence": [
+        {
+          "dateOfVisit": "18.12.2022",
+          "complaint": "Не чувствует рук",
+          "preliminaryDiagnosis": "Инсульт сердца",
+          "appointments": "Меньше стресса",
+          "discharged": null,
+          "doctor": "Врачобыкновенный Алексей Антонович"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "numberCard": 105,
+      "name": "www",
+      "address": "wwww",
+      "gender": "",
+      "age": "www",
+      "insurancePolicyNumber": "www",
+      "createDateCards": "18.12.2022",
+      "intelligence": [],
+      "doctor": "мужской"
+    },
+    {
+      "id": 3,
+      "numberCard": 106,
+      "name": "Ананимный чел",
+      "address": "ананимная",
+      "gender": "другой (дэбил)",
+      "age": "19.02.2010",
+      "insurancePolicyNumber": "гцрывраршгывр",
+      "createDateCards": "18.12.2022",
+      "intelligence": []
+    },
+    {
+      "id": 4,
+      "numberCard": 107,
+      "name": "wwww",
+      "address": "wwwwwwww",
+      "gender": "мужской",
+      "age": "www",
+      "insurancePolicyNumber": "www",
+      "createDateCards": "18.12.2022",
+      "intelligence": []
+    },
+    {
+      "id": 5,
+      "numberCard": 108,
+      "name": "www321321312",
+      "address": "231321321www",
+      "gender": "женский",
+      "age": "www",
+      "insurancePolicyNumber": "www12121",
+      "createDateCards": "18.12.2022",
+      "intelligence": []
+    },
+    {
+      "id": 6,
+      "numberCard": 109,
+      "name": "Что-то",
+      "address": "Что-то",
+      "gender": "мужской",
+      "age": "Что-то",
+      "insurancePolicyNumber": "Что-то",
+      "createDateCards": "18.12.2022",
+      "intelligence": []
+    },
+    {
+      "id": 7,
+      "numberCard": 110,
+      "name": "Клименков Евгений Андреевич",
+      "address": "Минск",
+      "gender": "мужской",
+      "age": "29.09.2001",
+      "insurancePolicyNumber": "32132131",
+      "createDateCards": "08.01.2023",
+      "intelligence": [
+        {
+          "dateOfVisit": "22.02.2222",
+          "complaint": "оалвыроыв",
+          "preliminaryDiagnosis": "выарывлорал",
+          "appointments": "влоыраолыварол",
+          "discharged": "выалор",
+          "doctor": "Врачпростой Алексей Антонович"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "numberCard": null,
+      "name": "Клименков Евгений Андреевич",
+      "address": "2223",
+      "gender": "мужской",
+      "age": "20.09.2029",
+      "insurancePolicyNumber": "паа3232",
+      "createDateCards": "10.01.2023",
+      "intelligence": []
+    },
+    {
+      "id": 9,
+      "numberCard": 1,
+      "name": "www",
+      "address": "321321",
+      "gender": "мужской",
+      "age": "02.06.2023",
+      "insurancePolicyNumber": "wwww",
+      "createDateCards": "17.06.2023",
+      "intelligence": []
+    },
+    {
+      "id": 10,
+      "numberCard": 2,
+      "name": "English Helper",
+      "address": "wwww",
+      "gender": "другой (дэбил)",
+      "age": "02.06.2023",
+      "insurancePolicyNumber": "гцрывраршгывр",
+      "createDateCards": "17.06.2023",
+      "intelligence": []
+    }
+  ]
+}

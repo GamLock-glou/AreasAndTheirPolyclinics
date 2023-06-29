@@ -1,0 +1,29 @@
+.areasContainer {
+  padding: 20px 60px;
+  font-size: 1.6vw;
+  color: rgba(0, 0, 0, 0.575)
+}
+
+.areasWrapper {
+  display: flex;
+}
+
+.areaWrapper {
+  text-decoration: none;
+  font-size: 1.4vw;
+  color: rgba(0, 0, 0, 0.575);
+  margin: 10px 10px 10px 0;
+
+  &:hover {
+    color: rgb(0, 0, 0);
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .areasContainer {
+    font-size: 25px;
+  }
+  .areaWrapper {
+    font-size: 20px;
+  }
+}

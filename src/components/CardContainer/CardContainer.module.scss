@@ -1,0 +1,103 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 60px 60px 0;
+  box-sizing: border-box;
+}
+
+.cardName {
+  color: rgba(0, 0, 0, 0.575);
+  font-size: 1.2em;
+}
+
+.namePatient {
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.575);
+
+}
+
+.textFieldWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardValuesContainer {
+  border: 1px solid rgba(0, 0, 0, 0.575);
+  color: rgba(0, 0, 0, 0.575);
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.cardValue {
+  display: flex;
+  justify-content: start;
+  font-size: 1.3em;
+}
+
+.cardDischargedWrapper {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  font-size: 1.3em;
+}
+
+.cardDischarged {
+  margin-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.addVisitButton {
+  border: 1px solid rgba(0, 0, 0, 0.575);
+  color: rgba(0, 0, 0, 0.575);
+  margin-top: 10px;
+  padding: 20px;
+  cursor: pointer;
+
+  &:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.575);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cardValuesContainer {
+    width: 90%
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .namePatient {
+    font-size: 1em;
+  }
+
+  .cardName {
+    font-size: 1em;
+  }
+
+  .cardValue {
+    font-size: 0.9em;
+  }
+
+  .cardDischargedWrapper {
+    font-size: 0.9em;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .cardContainer {
+    padding: 60px 0 0;
+  }
+}
