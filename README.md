@@ -38,4 +38,4 @@ If you also want to work with the json-server, you don't have to clone the repos
   yarn dev
 ```
 
-![Alt text](image.png)
+![Alt text](src/utils/pictures/image.png)

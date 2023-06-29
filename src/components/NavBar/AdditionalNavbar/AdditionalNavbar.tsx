@@ -17,7 +17,7 @@ const AdditionalNavbar = ({clickedInValue, onClickInNavBar}: AdditionalNavbarTyp
     creater: <Creator onClickInNavBar={onClickInNavBar} />
   }
   return (
-    <div className={classNames(styles.additionalNavbarWrapper)}>
+    <div className={classNames(styles.additionalNavbarWrapper, {[styles.none]: clickedInValue === ''})}>
       {components[clickedInValue]}
     </div>
   );

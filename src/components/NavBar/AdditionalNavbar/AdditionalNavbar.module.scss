@@ -7,10 +7,9 @@
   top: 100%;
   z-index: 10;
   animation: 0.3s showForm;
-}
-
-.none {
-  animation: 0.3s hideForm;
+  &.none {
+    animation: 0.3s hideForm;
+  }
 }
 
 @keyframes showForm {
