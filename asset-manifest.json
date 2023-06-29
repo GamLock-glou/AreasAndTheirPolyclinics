@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AreasAndTheirPolyclinics/static/css/main.d253d897.css",
-    "main.js": "/AreasAndTheirPolyclinics/static/js/main.f580de77.js",
+    "main.css": "/AreasAndTheirPolyclinics/static/css/main.c8e0e36f.css",
+    "main.js": "/AreasAndTheirPolyclinics/static/js/main.eb3a754b.js",
     "static/js/787.28cb0dcd.chunk.js": "/AreasAndTheirPolyclinics/static/js/787.28cb0dcd.chunk.js",
     "static/media/video.mp4": "/AreasAndTheirPolyclinics/static/media/video.53a20d9e69a316ab5e4a.mp4",
     "static/media/polyclinic4.jpg": "/AreasAndTheirPolyclinics/static/media/polyclinic4.d23393ed4f73d66fc76b.jpg",
@@ -12,12 +12,12 @@
     "static/media/polyclinic2.jpeg": "/AreasAndTheirPolyclinics/static/media/polyclinic2.968bc5eb2a8071b1ad18.jpeg",
     "static/media/lato-latin-ext-400-normal.woff2": "/AreasAndTheirPolyclinics/static/media/lato-latin-ext-400-normal.361f3dbb9db6a5980326.woff2",
     "index.html": "/AreasAndTheirPolyclinics/index.html",
-    "main.d253d897.css.map": "/AreasAndTheirPolyclinics/static/css/main.d253d897.css.map",
-    "main.f580de77.js.map": "/AreasAndTheirPolyclinics/static/js/main.f580de77.js.map",
+    "main.c8e0e36f.css.map": "/AreasAndTheirPolyclinics/static/css/main.c8e0e36f.css.map",
+    "main.eb3a754b.js.map": "/AreasAndTheirPolyclinics/static/js/main.eb3a754b.js.map",
     "787.28cb0dcd.chunk.js.map": "/AreasAndTheirPolyclinics/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d253d897.css",
-    "static/js/main.f580de77.js"
+    "static/css/main.c8e0e36f.css",
+    "static/js/main.eb3a754b.js"
   ]
 }
