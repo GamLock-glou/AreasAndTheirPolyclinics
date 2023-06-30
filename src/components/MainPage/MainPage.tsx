@@ -16,7 +16,7 @@ const MainPage = () => {
       </video>
       <div className={styles.videoColor} />
       <div className={styles.textOnVideoWrapper}>
-        <div className={styles.textOnVideo}>Колекция участков и их поликлиник</div>
+        <div className={styles.textOnVideo}>Коллекция участков и их поликлиник</div>
       </div>
     </div>
   );
