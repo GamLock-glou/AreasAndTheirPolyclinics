@@ -12,7 +12,7 @@ type MainNavBarType = {
 }
 
 const MainNavBar = ({onClickInNavBar, clickedInValue}: MainNavBarType) => {
-  const navBarValue = {creater: 'Создание', areas: 'Участки', about: 'О сайте'};
+  const navBarValue = {creater: 'Создание', areas: 'Участки'};
   return (
     <>
       <div className={styles.navBarLeftWrapper}>
